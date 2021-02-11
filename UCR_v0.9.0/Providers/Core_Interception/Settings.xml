@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <Setting>
+	<!--
+		Whether Blocking is allowed or not
+		READ WARNING IN WIKI before enabling!
+		https://github.com/Snoothy/UCR/wiki/Core_Interception
+	-->
+    <Name>BlockingEnabled</Name>
+    <Value>false</Value>
+  </Setting>
+  <Setting>
+	<!--
+		Poll Rate, in ms
+		Lowering this is only really of use for mouse movement
+		if your mouse polls at a high rate, eg 1000hz
+	-->
+    <Name>PollRate</Name>
+    <Value>10</Value>
+  </Setting>
+  <Setting>
+	<!--
+		Controls whether strokes which are not blocked are fired on a thread
+		Setting to true may stop crashes etc with low PollRate setting
+	-->
+    <Name>StrokeOnThread</Name>
+    <Value>false</Value>
+  </Setting>
+</Settings>

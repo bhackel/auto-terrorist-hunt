@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profiles>
+    <Profile Title="vJoy to DS4" Guid="eed8ff94-7ab9-47ad-8a4b-5c767de8ad93">
+      <ChildProfiles />
+      <Mappings>
+        <Mapping Title="Down">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="a7fcbe3b-8e90-406c-9578-eb809e8962a8" KeyType="1" KeyValue="48" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="2ea22e89-325d-44e2-817c-8a76fa4a902c" KeyType="2" KeyValue="2" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="Right">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="a7fcbe3b-8e90-406c-9578-eb809e8962a8" KeyType="1" KeyValue="49" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="2ea22e89-325d-44e2-817c-8a76fa4a902c" KeyType="2" KeyValue="1" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="X">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="a7fcbe3b-8e90-406c-9578-eb809e8962a8" KeyType="1" KeyValue="50" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="2ea22e89-325d-44e2-817c-8a76fa4a902c" KeyType="1" KeyValue="0" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+        <Mapping Title="R1">
+          <DeviceBindings>
+            <DeviceBinding IsBound="true" DeviceConfigurationGuid="a7fcbe3b-8e90-406c-9578-eb809e8962a8" KeyType="1" KeyValue="51" KeySubValue="0" />
+          </DeviceBindings>
+          <Plugins>
+            <Plugin xsi:type="ButtonToButton">
+              <Outputs>
+                <DeviceBinding IsBound="true" DeviceConfigurationGuid="2ea22e89-325d-44e2-817c-8a76fa4a902c" KeyType="1" KeyValue="5" KeySubValue="0" />
+              </Outputs>
+              <Filters />
+              <Invert>false</Invert>
+            </Plugin>
+          </Plugins>
+        </Mapping>
+      </Mappings>
+      <InputDeviceConfigurations>
+        <DeviceConfiguration Guid="a7fcbe3b-8e90-406c-9578-eb809e8962a8">
+          <Device Title="vJoy Device" ProviderName="SharpDX_DirectInput" DeviceHandle="VID_1234&amp;PID_BEAD" DeviceNumber="0" />
+          <ShadowDevices />
+        </DeviceConfiguration>
+      </InputDeviceConfigurations>
+      <OutputDeviceConfigurations>
+        <DeviceConfiguration Guid="2ea22e89-325d-44e2-817c-8a76fa4a902c">
+          <Device Title="ViGEm DS4 Controller 1" ProviderName="Core_ViGEm" DeviceHandle="ds4" DeviceNumber="0" />
+          <ShadowDevices />
+        </DeviceConfiguration>
+      </OutputDeviceConfigurations>
+    </Profile>
+  </Profiles>
+</Context>
