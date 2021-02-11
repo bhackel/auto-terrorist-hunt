@@ -56,7 +56,7 @@ loop {
             tooltip Looking for end screen... %OutputVar%, 640, 480
             if (OutputVar == 0x151516) {
                 tooltip Found end screen, 640, 480
-                sleep %b%
+                sleep 1000
                 send_delayed("tab")
                 sleep %a%
                 send_delayed("enter")
