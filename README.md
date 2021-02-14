@@ -10,6 +10,8 @@ Install AutoHotkey from the website: https://www.autohotkey.com/
 
 Set the window size to 1176x664 Windowed (3rd option)
 
+In settings under Display, click Calibration and set brightness to 55
+
 1. Run the file "tower hard doc.ahk"
 2. Launch a solo terrorist hunt on Hard difficulty
 3. On the room select screen, push f12 to start the script
