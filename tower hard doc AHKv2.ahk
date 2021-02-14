@@ -83,4 +83,4 @@ f12:: {
 }
 
 
-;f11::ExitApp
+f11::ExitApp
