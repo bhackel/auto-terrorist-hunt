@@ -1,6 +1,6 @@
 ﻿#Warn  ; Enable warnings to assist with detecting common errors.
 
-global short := 70
+global short := 100
 global long := 600
 
 ; Get current window size, then find center coordinate
@@ -55,7 +55,7 @@ f12:: {
                 tooltip("Looking for end screen... " . Color, 0, 0)
                 if (Color == "0x141516") {
                     tooltip("Found end screen", 0, 0)
-                    sleep(long)
+                    sleep(1500)
                     send_delayed("tab")
                     send_delayed("enter")
                     break
